@@ -213,6 +213,30 @@ section.tint { background: var(--bg-tint); }
   background: #fff;
 }
 
+.card-photo {
+  width: calc(100% + 56px);
+  margin: -26px -28px 20px -28px;
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: hidden;
+  background: var(--bg-tint);
+}
+
+.card-photo img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.card-photo-credit {
+  font-size: 0.76rem;
+  color: var(--faint);
+  padding: 6px 16px;
+  background: var(--bg-tint);
+  text-align: right;
+}
+
 .card-eyebrow {
   display: flex;
   gap: 10px;
