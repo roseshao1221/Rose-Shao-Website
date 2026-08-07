@@ -91,14 +91,6 @@ a:hover { text-decoration: underline; }
 .site-header nav a:hover { color: var(--navy); text-decoration: none; }
 .site-header nav a.active { color: var(--navy); }
 
-.nav-cv {
-  border: 1px solid var(--navy);
-  border-radius: 999px;
-  padding: 6px 16px !important;
-  color: var(--navy) !important;
-}
-.nav-cv:hover { background: var(--navy); color: #fff !important; }
-
 /* ---------- Hero ---------- */
 .hero {
   padding: 84px 0 56px 0;
