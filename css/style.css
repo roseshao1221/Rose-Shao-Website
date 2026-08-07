@@ -167,6 +167,12 @@ section.tint { background: var(--bg-tint); }
   border-radius: var(--radius);
   padding: 20px 18px;
   text-align: center;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  border-color: #cdd4e0;
 }
 
 .stat-num {
@@ -203,6 +209,13 @@ section.tint { background: var(--bg-tint); }
   padding: 26px 28px;
   margin-bottom: 20px;
   background: #fff;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -12px rgba(31, 56, 100, 0.18);
+  border-color: #cdd4e0;
 }
 
 .card-photo {

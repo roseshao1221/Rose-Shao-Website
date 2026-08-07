@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roseshao1221.github.io/Rose-Shao-Website/sitemap.xml
