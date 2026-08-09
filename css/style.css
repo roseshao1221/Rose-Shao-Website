@@ -385,7 +385,7 @@ section.tint { background: var(--bg-tint); }
   .site-header .wrap {
     flex-wrap: wrap;
     height: auto;
-    padding: 14px 0;
+    padding: 14px 28px;
     row-gap: 10px;
   }
   .site-header nav { gap: 16px; flex-wrap: wrap; }
